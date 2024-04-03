@@ -5,6 +5,13 @@ date:   2024-04-03 13:00:00 -0600
 categories: answerbrawl db cosmos postgres
 ---
 
+{% for category in page.categories %}
+  <div style='display: inline; padding: 5px 10px; background-color: #d0d0d0; border-radius: 15px; margin: 5px'>
+    {{ category }}
+  </div>
+{% endfor %}
+<br/>
+
 ### Relational vs Document Db
 [AnswerBrawl](https://answerbrawl.com)'s data is highly relational, and so although Cosmos NoSQL has been really quick to try out for free and get me rolling, it's not appropriate for the main entities when I want to do some more filtering & joins.
 
