@@ -30,7 +30,7 @@ twitter_username: mike_cullingham
 github_username:  mike-subtilis
 
 # Build settings
-theme: minima
+theme: tactile
 plugins:
   - jekyll-feed
 
