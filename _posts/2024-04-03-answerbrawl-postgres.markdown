@@ -18,8 +18,8 @@ Answerbrawl's data is highly relational, and so although Cosmos NoSQL has been r
 Ballots: short-lived and referenced only by Id, so continuing to use Redis for these is still appropriate.
 
 ### Hosting
-With [PlanetScale][planetscale.com] cancelling the free tier for MySQL, I looked around to find some alternatives. I'm not opposed to paying for Db hosting, but until (if) AnswerBrawl
+With PlanetScale cancelling the free tier for MySQL, I looked around to find some alternatives. I'm not opposed to paying for Db hosting, but until (if) AnswerBrawl
 pays for itself in some way, I want to keep it as cheap as possible. $40 / month.
 
-[Neon][neon.tech] provides free-tier Postgres hosting. Since my knowledge of SQL doesn't extend to the pros & cons of MySQL vs Postgres vs SQL Server, I'm happy to try out Postgres.
+Neon provides free-tier Postgres hosting. Since my knowledge of SQL doesn't extend to the pros & cons of MySQL vs Postgres vs SQL Server, I'm happy to try out Postgres.
 
