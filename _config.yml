@@ -30,9 +30,10 @@ twitter_username: mike_cullingham
 github_username:  mike-subtilis
 
 # Build settings
-theme: tactile
+remote_theme: pages-themes/tactile@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme # add this line to the plugins list
 
 # Exclude from processing.
 # The following items will not be processed, by default.
